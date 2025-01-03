@@ -9,7 +9,8 @@
 }
 :root{
     --body-bg-color: #1A1A1D;
-    --heading-color: #fcfafa;
+    --heading-color: #000000;
+    --white-color: #ffffff;
     --para-color: #bbbbbb;
 }
 body{
@@ -26,7 +27,7 @@ h1{
     background-color: var(--body-bg-color);
     
     & .navbar-brand, .nav-link{
-        color: var(--heading-color);
+        color: var(--white-color);
 
         &:hover{
             color: var(--para-color);
@@ -85,4 +86,16 @@ h1{
     fill: #FFFFFF;
 }
 /* MAIN SECTION END */
+
+/* ABOUT SECTION START */
+.about-gif{
+    max-width: 100%;
+    width: 10rem;
+    height: auto;
+}
+.columns{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* gap: 0 2rem; */
+}
+/* ABOUT SECTION END */
 
