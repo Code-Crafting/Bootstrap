@@ -102,3 +102,64 @@ h1{
 }
 /* SERVICE SECTION END */
 
+/* REVIEWS SECTION START */
+.reviews-section{
+    background-color: var(--body-bg-color);
+}
+/* REVIEWS SECTION  END */
+
+/* CONTACT PAGE START */
+.footer{
+    position: relative;
+}
+.custom-shape-divider-top-1736146783 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736146783 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1736146783 .shape-fill {
+    fill: #ffffff;
+}
+
+.footer{
+    background-color: var(--body-bg-color);
+
+    & .container{
+        padding-top: 10rem;
+    }
+    & hr{
+        color: black
+    }
+    & input{
+        outline: none;
+    }
+    & .icon-div{
+        width: 4rem;
+        aspect-ratio: 1;
+    }
+    & p{
+        color: white;
+    }
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-con{
+    padding-top: 5rem;
+}
+/* CONTACT PAGE END */
+
