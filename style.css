@@ -44,9 +44,6 @@ h1{
     place-items: center;
     position: relative;
 
-    & .contianer{
-        /* height: 100%; */
-    }
     & .main-btn{
         width: max-content;
     }
@@ -135,6 +132,10 @@ h1{
 .footer{
     background-color: var(--body-bg-color);
 
+    & form{
+        width: 50%;
+    }
+
     & .container{
         padding-top: 10rem;
     }
@@ -163,3 +164,64 @@ h1{
 }
 /* CONTACT PAGE END */
 
+/* MEDIA QUARIES START */
+@media (width <= 992px){
+    .main-section {
+
+        & .container{
+            margin: 4rem 0;
+    
+            & h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    
+}
+@media (width <= 991px){
+    .main-section {
+        height: auto;
+
+        & .container {
+            & .row{
+                flex-direction: column-reverse;
+    
+            }
+            & video{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .service-section{
+
+        & .columns{
+            margin-bottom: 4rem;
+            width: 70%;
+        }
+    }
+    .footer{
+
+        & form{
+            width: 80%;
+        }
+    }
+    .service-img{
+        display: none;
+    }
+    
+    
+}
+@media (width <= 767px){
+
+    .footer{
+
+        & form{
+            width: 100%;
+        }
+    }
+    .contact-btn{
+        display: grid;
+        place-items: start;
+    }
+}
+/* MEDIA QUARIES END */
