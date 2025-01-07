@@ -12,7 +12,8 @@
 <body>
     
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
+     <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">Logo</a>
           <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,29 +23,31 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#mainSection">Home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#aboutSection">About</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="#serviceSection">Service</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contactSection">Contact</a>
               </li>
 
             </ul>
           </div>
         </div>
-    </nav>
+      </nav>
+     </header>
+    
     <!-- END NAVBAR -->
     
     <!-- START HERO SECTION -->
-    <main class="main-section">
+    <main class="main-section" id="mainSection">
       <div class="container pb-5">
         <div class="row justify-content-between">
           <div class="col-12 col-md-12 col-lg-5 d-flex justify-content-center flex-column">
@@ -75,8 +78,8 @@
     <!-- END HERO SECTION -->
 
     <!-- SERVICE SECTION START -->
-    <section class="service-section">
-      <div class="container my-5">
+    <section class="service-section" id="serviceSection">
+      <div class="container common-con ">
         
         <div class="w-100 mx-auto">
           <h2 class="text-capitalize text-center">what we will do  for <br>your business</h2>
@@ -152,8 +155,8 @@
     <!-- CONTACT SECTION END -->
 
     <!-- ABOUT SECTION START -->
-    <section class="about-section">
-      <div class="container my-5">
+    <section class="about-section" id="aboutSection">
+      <div class="container common-con">
         
         <div class="w-100 mx-auto">
           <h2 class="text-capitalize text-center">generating new customers via<br>online mode</h2>
@@ -211,7 +214,7 @@
     <!-- ABOUT SECTION END -->
 
     <!-- CONTACT PAGE START -->
-    <footer class="footer pb-5">
+    <footer class="footer pb-5" id="contactSection">
       <!-- shape divider -->
       <div class="custom-shape-divider-top-1736146783">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

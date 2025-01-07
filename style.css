@@ -7,6 +7,9 @@
     font-family: "Urbanist", serif;
     letter-spacing: .1rem;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --body-bg-color: #1A1A1D;
     --heading-color: #000000;
@@ -21,7 +24,9 @@ h1,h2,h3,h4,h5{
 h1{
     font-size: 3.5rem
 }
-
+.common-con{
+    padding: 7rem 0 5rem 0;
+}
 /* NAVBAR START */
 .navbar{
     background-color: var(--body-bg-color);
